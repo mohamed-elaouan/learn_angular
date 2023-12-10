@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
@@ -164,17 +164,12 @@
       margin-block: 1.5rem;
     }
   }
-</style>
-
-
-<main class="main">
-  <div class="content">
-    <div class="left-side">
-      <h1>Hello, Mohamed elaouan {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
-    </div>
-  </div>
-</main>
-<router-outlet />
-
-
+</style> -->
+<!-- methode de appeler les componnet -->
+<app-header />
+<div class="Show">
+  <app-profil/>
+  <router-outlet />
+</div>
+<!-- Footer -->
+<app-footer />
